@@ -1,0 +1,31 @@
+{
+  "name": "discord-windson-epic-games",
+  "version": "0",
+  "description": "A bot to scrape epic games page and find new free games",
+  "main": "index.js",
+  "author": "odonatojunior",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "puppeteer": "^19.8.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3",
+    "vitest": "^0.29.8"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest"
+  }
+}
