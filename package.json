@@ -28,6 +28,7 @@
   "scripts": {
     "build": "tsc && tsc-alias",
     "dev": "tsx watch src/index.ts",
-    "test": "vitest"
+    "test": "vitest",
+    "start": "node ./out/src/index.js"
   }
 }
