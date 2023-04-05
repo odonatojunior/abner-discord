@@ -1,2 +1,5 @@
 export { default as abner } from './abner'
 export { default as paysandu } from './paysandu'
+export { default as comandos } from './comandos'
+export { default as epic } from './epic'
+export { default as steam } from './steam'
